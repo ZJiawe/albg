@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.albg.code.domain.mapper.FieldValuePresentInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.albg.code.domain.entitys.FieldValuePresentInfo">
+        <id column="field_value_id" property="fieldValueId" />
+        <result column="original_data_id" property="originalDataId" />
+        <result column="field_id" property="fieldId" />
+        <result column="field_value" property="fieldValue" />
+        <result column="insert_time" property="insertTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="version" property="version" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        field_value_id, original_data_id, field_id, field_value, insert_time, update_time, version
+    </sql>
+
+</mapper>

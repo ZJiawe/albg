@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.albg.code.domain.mapper.VersionInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.albg.code.domain.entitys.VersionInfo">
+        <id column="version_id" property="versionId" />
+        <result column="name" property="name" />
+        <result column="note" property="note" />
+        <result column="modifier" property="modifier" />
+        <result column="modification_time" property="modificationTime" />
+        <result column="active" property="active" />
+        <result column="status" property="status" />
+        <result column="app_name" property="appName" />
+        <result column="version" property="version" />
+        <result column="insert_time" property="insertTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        version_id, name, note, modifier, modification_time, active, status, app_name, version, insert_time
+    </sql>
+
+</mapper>

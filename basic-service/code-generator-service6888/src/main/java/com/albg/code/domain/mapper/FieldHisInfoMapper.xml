@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.albg.code.domain.mapper.FieldHisInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.albg.code.domain.entitys.FieldHisInfo">
+        <id column="info_id" property="infoId" />
+        <result column="version_id" property="versionId" />
+        <result column="database_id" property="databaseId" />
+        <result column="table_id" property="tableId" />
+        <result column="field_id" property="fieldId" />
+        <result column="name" property="name" />
+        <result column="type_value" property="typeValue" />
+        <result column="size_value" property="sizeValue" />
+        <result column="primary_key" property="primaryKey" />
+        <result column="null_value" property="nullValue" />
+        <result column="auto_increment" property="autoIncrement" />
+        <result column="default_value" property="defaultValue" />
+        <result column="note" property="note" />
+        <result column="action" property="action" />
+        <result column="modifier" property="modifier" />
+        <result column="modification_time" property="modificationTime" />
+        <result column="version" property="version" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        info_id, version_id, database_id, table_id, field_id, name, type_value, size_value, primary_key, null_value, auto_increment, default_value, note, action, modifier, modification_time, version
+    </sql>
+
+</mapper>

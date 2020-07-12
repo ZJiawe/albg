@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.albg.code.domain.mapper.SequenceHisInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.albg.code.domain.entitys.SequenceHisInfo">
+        <id column="info_id" property="infoId" />
+        <result column="version_id" property="versionId" />
+        <result column="database_id" property="databaseId" />
+        <result column="table_id" property="tableId" />
+        <result column="sequence_id" property="sequenceId" />
+        <result column="name" property="name" />
+        <result column="increament" property="increament" />
+        <result column="start" property="start" />
+        <result column="max_value" property="maxValue" />
+        <result column="modifier" property="modifier" />
+        <result column="note" property="note" />
+        <result column="action" property="action" />
+        <result column="insert_time" property="insertTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="version" property="version" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        version_id, info_id, database_id, table_id, sequence_id, name, increament, start, max_value, modifier, note, action, insert_time, update_time, version
+    </sql>
+
+</mapper>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.albg.code.domain.mapper.OriginalDataHisInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.albg.code.domain.entitys.OriginalDataHisInfo">
+        <id column="original_data_his_info_id" property="originalDataHisInfoId" />
+        <result column="original_data_id" property="originalDataId" />
+        <result column="table_id" property="tableId" />
+        <result column="action" property="action" />
+        <result column="insert_time" property="insertTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="version" property="version" />
+        <result column="modifier" property="modifier" />
+        <result column="version_id" property="versionId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        original_data_his_info_id, original_data_id, table_id, action, insert_time, update_time, version, modifier, version_id
+    </sql>
+
+</mapper>
