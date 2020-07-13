@@ -1,0 +1,5 @@
+com\albg\provider\CloudProviderPaymentApplication.class
+com\albg\provider\controller\controller\PaymentController.class
+com\albg\provider\controller\dao\PaymentDao.class
+com\albg\provider\controller\service\impl\PaymentServiceImpl.class
+com\albg\provider\controller\service\PaymentService.class
