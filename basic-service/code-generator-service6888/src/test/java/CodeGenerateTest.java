@@ -19,7 +19,7 @@ public class CodeGenerateTest {
     /**
      * 生成文件物理位置
      */
-    private static final String GENERATE_DIR = "D:\\6.persion-website\\basic-service\\code-generator-service6888\\src\\main\\java";
+    private static final String GENERATE_DIR = "D:\\1.GitFile\\9.albg\\basic-service\\cloud-provider-payment8001\\src\\main\\java";
     /**
      * 作者
      */
@@ -27,7 +27,7 @@ public class CodeGenerateTest {
     /**
      * 数据库连接地址
      */
-    private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/code-generate?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
+    private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/springcloud?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
     /**
      * 数据库账号
      */
@@ -39,7 +39,7 @@ public class CodeGenerateTest {
     /**
      * 父级目录
      */
-    private static final String PARENT_URL = "com.albg.code";
+    private static final String PARENT_URL = "com.albg.provider";
 
     @Test
     public void generateTest() {

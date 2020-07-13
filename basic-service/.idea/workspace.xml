@@ -4,7 +4,28 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c858818c-d70d-4a2e-9d29-d36c3b012085" name="Default Changelist" comment="" />
+    <list default="true" id="c858818c-d70d-4a2e-9d29-d36c3b012085" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/infrastructure/common/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/interfaces/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bussiness-service/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bussiness-service/cloud-provider-payment8001/src/main/java/provider/PaymentMain8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bussiness-service/cloud-provider-payment8001/src/main/java/provider/domain/entitys/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bussiness-service/cloud-provider-payment8001/src/main/java/provider/domain/mapper/PaymentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bussiness-service/cloud-provider-payment8001/src/main/java/provider/domain/mapper/PaymentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bussiness-service/cloud-provider-payment8001/src/main/java/provider/domain/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bussiness-service/cloud-provider-payment8001/src/main/java/provider/domain/service/interfaces/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bussiness-service/cloud-provider-payment8001/src/main/java/provider/infrastructure/common/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bussiness-service/cloud-provider-payment8001/src/main/java/provider/interfaces/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bussiness-service/cloud-provider-payment8001/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/domain/entities/PayMent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator-service6888/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator-service6888/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator-service6888/src/test/java/CodeGenerateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator-service6888/src/test/java/CodeGenerateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator-service6888/target/classes/META-INF/code-generator-service6888.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator-service6888/target/classes/com/albg/code/domain/entitys/DbPresentInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator-service6888/target/classes/com/albg/code/domain/entitys/DbPresentInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator-service6888/target/test-classes/CodeGenerateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator-service6888/target/test-classes/CodeGenerateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cloud-provider-payment8001/target/" />
     <ignored path="$PROJECT_DIR$/code-generator-service6888/target/" />
@@ -33,7 +54,112 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/CodeGeneratorApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/test/java/CodeGenerateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="107" column="12" selection-start-line="15" selection-start-column="4" selection-end-line="107" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/domain/service/impl/PaymentServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/domain/service/interfaces/PaymentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/interfaces/controller/PaymentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.3.0/mybatis-plus-extension-3.3.0.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/infrastructure/common/CommonResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code-generator-service6888/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="128" column="57" selection-start-line="128" selection-start-column="57" selection-end-line="128" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="77" column="19" selection-start-line="14" selection-start-column="4" selection-end-line="77" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,8 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/domain/entities.java" />
         <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/domain/PayMent.java" />
@@ -86,12 +210,18 @@
         <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/TableHisInfo.java" />
         <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/TablePresentInfo.java" />
         <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/VersionInfo.java" />
-        <option value="$PROJECT_DIR$/code-generator-service6888/pom.xml" />
         <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/interfaces/controller/DbHisInfoController.java" />
         <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/CodeGeneratorApplication.java" />
-        <option value="$PROJECT_DIR$/code-generator-service6888/src/test/java/CodeGenerateTest.java" />
         <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/interfaces/controller/DbPresentInfoController.java" />
         <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/DbPresentInfo.java" />
+        <option value="$PROJECT_DIR$/code-generator-service6888/src/test/java/CodeGenerateTest.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/infrastructure/common/COmmonResult.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/infrastructure/common/Common.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/infrastructure/common/CommonResult.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/interfaces/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/code-generator-service6888/pom.xml" />
       </list>
     </option>
   </component>
@@ -128,10 +258,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1752" />
-    <option name="height" value="1029" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1751" />
+    <option name="height" value="1019" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -149,13 +279,50 @@
             <path>
               <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic-service" type="462c0819:PsiDirectoryNode" />
-              <item name="code-generator-service6888" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic-service" type="462c0819:PsiDirectoryNode" />
               <item name="code-generator-service6888" type="462c0819:PsiDirectoryNode" />
-              <item name="deploy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
@@ -186,16 +353,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
-              <item name="code-generator-service6888" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -212,8 +369,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594553679385" />
-    <property name="last_opened_file_path" value="D:/1.GitFile/8.templement/springboot_mybatis_plus" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594560755038" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -223,6 +380,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.albg.provider.interfaces.controller" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -242,7 +400,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CodeGenerateTest.generateTest">
+    <configuration name="CodeGenerateTest.generateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-generator-service6888" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CodeGenerateTest" />
+      <option name="METHOD_NAME" value="generateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CodeGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="code-generator-service6888" />
       <extension name="coverage">
@@ -258,6 +426,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CodeGenerateTest.generateTest" />
         <item itemvalue="Spring Boot.CodeGeneratorApplication" />
       </list>
     </recent_temporary>
@@ -274,6 +443,7 @@
       <updated>1594537968191</updated>
       <workItem from="1594537973957" duration="5953000" />
       <workItem from="1594546034312" duration="7795000" />
+      <workItem from="1594557503967" duration="3144000" />
     </task>
     <servers />
   </component>
@@ -293,15 +463,24 @@
     <history-entry file="CodeGenerateTest - 2020.07.12 at 19h 10m 12s.xml">
       <configuration name="CodeGenerateTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CodeGenerateTest_generateTest - 2020.07.12 at 20h 55m 20s.xml">
+      <configuration name="CodeGenerateTest.generateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeGenerateTest_generateTest - 2020.07.12 at 20h 58m 26s.xml">
+      <configuration name="CodeGenerateTest.generateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeGenerateTest_generateTest - 2020.07.12 at 20h 59m 12s.xml">
+      <configuration name="CodeGenerateTest.generateTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13748000" />
+    <option name="totallyTimeSpent" value="16892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="935" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23812388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32651833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -313,7 +492,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="1" sideWeight="0.49969932" weight="0.329602" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49969932" weight="0.329602" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.8671076" visible="true" weight="0.19178082" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.8671076" weight="0.1656289" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -342,54 +521,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/infrastructure/enums/StatusEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/infrastructure/cfg/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/domain/entities/PayMent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/infrastructure/enums/StatusEnum.java" />
+    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/infrastructure/cfg/A.java" />
     <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/infrastructure/cfg/MybatisPlusConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -411,20 +544,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/deploy/dbmanage.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="90" column="96" lean-forward="true" selection-end-line="338" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/Payment.java" />
+    <entry file="file://$PROJECT_DIR$/code-generator-service6888/deploy/dbmanage.sql" />
     <entry file="file://$PROJECT_DIR$/code-generator-service6888/deploy/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -547,13 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.3.0/mybatis-plus-extension-3.3.0.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="686">
@@ -621,33 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/test/java/CodeGenerateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/CodeGeneratorApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/deploy/code-generate.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/DbPresentInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -678,6 +765,121 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/domain/entities/PayMent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-generator-service6888/deploy/code-generate.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/test/java/CodeGenerateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/domain/entitys/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/domain/service/impl/PaymentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/domain/service/interfaces/PaymentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/infrastructure/common/CommonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.3.0/mybatis-plus-extension-3.3.0.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/interfaces/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="107" column="12" selection-start-line="15" selection-start-column="4" selection-end-line="107" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="77" column="19" selection-start-line="14" selection-start-column="4" selection-end-line="77" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/CodeGeneratorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-generator-service6888/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="128" column="57" selection-start-line="128" selection-start-column="57" selection-end-line="128" selection-end-column="57" />
         </state>
       </provider>
     </entry>
