@@ -1,3 +1,3 @@
-OrderMain6001.class
-infrastructure\config\ApplicationContextConfig.class
+com\albg\consumer\infrastructure\config\ApplicationContextConfig.class
+com\albg\consumer\CloudConsumerOrder6001.class
 com\albg\consumer\interfaces\controllers\OrderController.class
