@@ -7,9 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-api-commons" />
+        <module name="cloud-consule-payment8005" />
         <module name="cloud-consumer-order6001" />
+        <module name="cloud-consumer-ribbon-rule-order6002" />
         <module name="cloud-provider-payment8001" />
         <module name="cloud-provider-payment8002" />
+        <module name="cloud-zookeeper-payment8004" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">

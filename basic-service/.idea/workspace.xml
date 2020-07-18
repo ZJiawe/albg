@@ -5,61 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c858818c-d70d-4a2e-9d29-d36c3b012085" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/albg/eureka/EurekaMain7001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/controller/CloudProviderPayment8002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/controller/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/controller/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/controller/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/controller/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/domain/entitys/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/domain/mapper/PaymentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/domain/mapper/PaymentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/domain/service/impl/PaymentServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/domain/service/interfaces/PaymentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/infrastructure/common/CommonResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/interfaces/controller/PaymentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/META-INF/cloud-provider-payment8001.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/cloud-provider-payment8001-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-api-commons/target/cloud-api-commons-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-api-commons/target/cloud-api-commons-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-api-commons/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-api-commons/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/src/main/java/com/albg/consumer/infrastructure.config/ApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/src/main/java/com/albg/consumer/infrastructure.config/ApplicationContextConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/src/main/java/com/albg/consumer/interfaces/controllers/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/src/main/java/com/albg/consumer/interfaces/controllers/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consule-payment8005/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consule-payment8005/src/main/java/com/atguigu/springcloud/PaymentMain8006.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consule-payment8005/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consule-payment8005/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consule-payment8005/src/test/java/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-ribbon-rule-order6002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-ribbon-rule-order6002/src/main/java/com/albg/consumer/CloudConsumerOrder6002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-ribbon-rule-order6002/src/main/java/com/albg/consumer/infrastructure.config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-ribbon-rule-order6002/src/main/java/com/albg/consumer/interfaces/controllers/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-ribbon-rule-order6002/src/main/java/com/albg/consumer/lb/ILoadBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-ribbon-rule-order6002/src/main/java/com/albg/consumer/lb/MyLoadBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-ribbon-rule-order6002/src/main/java/com/albg/rule/MySelfRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-ribbon-rule-order6002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/resources/mapper/mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-zookeeper-payment8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-zookeeper-payment8004/src/main/java/com/albg/springcloud/PaymentMain8004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-zookeeper-payment8004/src/main/java/com/albg/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-zookeeper-payment8004/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/target/cloud-eureka-server7001-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/cloud-eureka-server7001-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/classes/META-INF/cloud-consumer-order6001.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/classes/com/albg/consumer/infrastructure/config/ApplicationContextConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/classes/com/albg/consumer/infrastructure/config/ApplicationContextConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/classes/com/albg/consumer/interfaces/controllers/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/classes/com/albg/consumer/interfaces/controllers/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/cloud-consumer-order6001-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/cloud-consumer-order6001-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-eureka-server7001/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-eureka-server7001/src/main/java/com/albg/eureka/EurekaMain7001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/albg/eureka/Eureka7002Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-eureka-server7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-eureka-server7001/target/classes/com/albg/eureka/EurekaMain7001.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/controller/CloudProviderPaymentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/controller/CloudProviderPayment8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/controller/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/controller/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/controller/CloudProviderPayment8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/CloudProviderPayment8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/controller/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/controller/dao/PaymentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/dao/PaymentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/controller/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/controller/service/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/service/impl/PaymentServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/META-INF/cloud-provider-payment8001.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/com/albg/provider/controller/CloudProviderPaymentApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/com/albg/provider/controller/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/com/albg/provider/controller/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/cloud-provider-payment8001-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/cloud-provider-payment8001-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/com/albg/provider/controller/CloudProviderPayment8001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/com/albg/provider/controller/controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/com/albg/provider/controller/dao/PaymentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/com/albg/provider/controller/service/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/com/albg/provider/controller/service/impl/PaymentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/mapper/PaymentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/mapper/PaymentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/controller/CloudProviderPayment8002.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/com/albg/provider/CloudProviderPayment8002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/controller/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/com/albg/provider/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/controller/dao/PaymentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/com/albg/provider/dao/PaymentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/controller/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/com/albg/provider/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/controller/service/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/com/albg/provider/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/resources/mapper/PaymentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/controller/CloudProviderPayment8002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/controller/controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/controller/dao/PaymentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/controller/service/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/controller/service/impl/PaymentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/mapper/PaymentMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../business-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="1007">
               <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
             </state>
           </provider>
@@ -106,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -114,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/albg/eureka/EurekaMain7001.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="239">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#410#411#0" expanded="true" />
@@ -128,8 +125,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="190">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/test/java/CodeGenerateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/albg/eureka/Eureka7002Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="247">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -243,12 +252,17 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="basic-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-eureka-server7001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-eureka-server7001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="cloud-eureka-server7001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -257,9 +271,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="663" />
-    <option name="y" value="328" />
+    <option name="y" value="327" />
     <option name="width" value="1752" />
     <option name="height" value="1020" />
   </component>
@@ -272,6 +286,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,102 +294,10 @@
               <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic-service" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka-server7002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
-              <item name="code-generator-service6888" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,8 +307,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594825761963" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-payment8001" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595081084574" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -408,6 +331,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -478,7 +406,8 @@
       <workItem from="1594546034312" duration="7795000" />
       <workItem from="1594557503967" duration="3144000" />
       <workItem from="1594646037562" duration="1211000" />
-      <workItem from="1594820574379" duration="4238000" />
+      <workItem from="1594820574379" duration="4701000" />
+      <workItem from="1595047803396" duration="6438000" />
     </task>
     <servers />
   </component>
@@ -509,13 +438,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22341000" />
+    <option name="totallyTimeSpent" value="29242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2675887" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2705953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -523,11 +452,12 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Problems" order="0" sideWeight="0.49969932" weight="0.329602" />
       <window_info anchor="bottom" id="Inspection Results" order="1" sideWeight="0.49969932" weight="0.329602" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49969932" weight="0.329602" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.8671076" visible="true" weight="0.3275218" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.8671076" weight="0.3275218" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -541,9 +471,9 @@
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.249549" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.23090799" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.23090799" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32952496" />
@@ -555,21 +485,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/infrastructure/genertor/config/MyTypeConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/FieldHisInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -768,13 +688,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yaml" />
     <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/domain/entities/PayMent.java" />
     <entry file="file://$PROJECT_DIR$/code-generator-service6888/deploy/code-generate.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -783,13 +697,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/domain/entitys/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/domain/entitys/Payment.java" />
     <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/CodeGeneratorApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -800,40 +708,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/test/java/CodeGenerateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/domain/service/impl/PaymentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/domain/service/interfaces/PaymentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/interfaces/controller/PaymentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/domain/service/impl/PaymentServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/domain/service/interfaces/PaymentService.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/interfaces/controller/PaymentController.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.3.0/mybatis-plus-extension-3.3.0.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -841,12 +718,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/eureka/EurekaMain7001.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/eureka/EurekaMain7001.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/eureka/EurekaMain7001.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/eureka/EurekaMain7001.java" />
     <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -854,18 +727,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/infrastructure/common/CommonResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/provider/infrastructure/common/CommonResult.java" />
     <entry file="file://$PROJECT_DIR$/code-generator-service6888/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -873,13 +735,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -889,15 +745,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="1007">
           <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/albg/eureka/Eureka7002Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/albg/eureka/EurekaMain7001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="239">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#410#411#0" expanded="true" />
@@ -906,27 +772,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/albg/eureka/Eureka7002Main.java">
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="323">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/CodeGenerateTest">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>CodeGenerateTest</OriginalElement>
+          <nodes>
+            <node x="" y="">CodeGenerateTest</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="76.5" y="15.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/test/java/CodeGenerateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="190">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
