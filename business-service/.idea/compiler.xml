@@ -9,6 +9,7 @@
         <module name="cloud-api-commons" />
         <module name="cloud-consule-payment8005" />
         <module name="cloud-consumer-feign-hystrix-order80" />
+        <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-consumer-order6001" />
         <module name="cloud-consumer-ribbon-rule-order6002" />
         <module name="cloud-provider-consumer-open-feign8006" />
