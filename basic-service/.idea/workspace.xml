@@ -5,58 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c858818c-d70d-4a2e-9d29-d36c3b012085" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consule-payment8005/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consule-payment8005/src/main/java/com/atguigu/springcloud/PaymentMain8006.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consule-payment8005/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consule-payment8005/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consule-payment8005/src/test/java/T.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-ribbon-rule-order6002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-ribbon-rule-order6002/src/main/java/com/albg/consumer/CloudConsumerOrder6002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-ribbon-rule-order6002/src/main/java/com/albg/consumer/infrastructure.config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-ribbon-rule-order6002/src/main/java/com/albg/consumer/interfaces/controllers/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-ribbon-rule-order6002/src/main/java/com/albg/consumer/lb/ILoadBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-ribbon-rule-order6002/src/main/java/com/albg/consumer/lb/MyLoadBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-ribbon-rule-order6002/src/main/java/com/albg/rule/MySelfRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-ribbon-rule-order6002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/resources/mapper/mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-zookeeper-payment8004/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-zookeeper-payment8004/src/main/java/com/albg/springcloud/PaymentMain8004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-zookeeper-payment8004/src/main/java/com/albg/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-zookeeper-payment8004/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/target/cloud-eureka-server7001-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/cloud-eureka-server7001-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-order6001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/controller/CloudProviderPayment8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/CloudProviderPayment8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/controller/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/controller/dao/PaymentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/dao/PaymentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/controller/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/service/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/controller/service/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/java/com/albg/provider/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/META-INF/cloud-provider-payment8001.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/com/albg/provider/controller/CloudProviderPayment8001.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/com/albg/provider/controller/controller/PaymentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/com/albg/provider/controller/dao/PaymentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/com/albg/provider/controller/service/PaymentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/com/albg/provider/controller/service/impl/PaymentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/mapper/PaymentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/mapper/PaymentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/controller/CloudProviderPayment8002.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/com/albg/provider/CloudProviderPayment8002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/controller/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/com/albg/provider/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/controller/dao/PaymentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/com/albg/provider/dao/PaymentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/controller/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/com/albg/provider/service/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/controller/service/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/java/com/albg/provider/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/resources/mapper/PaymentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/controller/CloudProviderPayment8002.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/controller/controller/PaymentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/controller/dao/PaymentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/controller/service/PaymentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/controller/service/impl/PaymentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/mapper/PaymentMapper.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-provider-consumer-open-feign8006/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-provider-consumer-open-feign8006/src/main/java/com/albg/springcloud/PaymentOpenFeign8006.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-provider-consumer-open-feign8006/src/main/java/com/albg/springcloud/config/OpenfeignLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-provider-consumer-open-feign8006/src/main/java/com/albg/springcloud/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-provider-consumer-open-feign8006/src/main/java/com/albg/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../business-service/cloud-provider-consumer-open-feign8006/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../business-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -125,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="342">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -307,7 +261,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595081084574" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595147325661" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -347,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Eureka7002Main">
+  <component name="RunManager" selected="Spring Boot.EurekaMain7001">
     <configuration name="CodeGenerateTest.generateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-generator-service6888" />
       <option name="PACKAGE_NAME" value="" />
@@ -407,7 +361,7 @@
       <workItem from="1594557503967" duration="3144000" />
       <workItem from="1594646037562" duration="1211000" />
       <workItem from="1594820574379" duration="4701000" />
-      <workItem from="1595047803396" duration="6438000" />
+      <workItem from="1595047803396" duration="8009000" />
     </task>
     <servers />
   </component>
@@ -438,13 +392,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29242000" />
+    <option name="totallyTimeSpent" value="30813000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
+    <frame x="-7" y="-7" width="1721" height="935" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2705953" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2705953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -452,7 +406,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Problems" order="0" sideWeight="0.49969932" weight="0.329602" />
       <window_info anchor="bottom" id="Inspection Results" order="1" sideWeight="0.49969932" weight="0.329602" />
       <window_info anchor="bottom" id="Message" order="2" />
@@ -816,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
