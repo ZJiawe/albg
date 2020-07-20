@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c858818c-d70d-4a2e-9d29-d36c3b012085" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-hystrix-dashboard9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-hystrix-dashboard9001/src/main/java/com/albg/springcloud/HystrixDashboardMain9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-hystrix-payment8001/src/main/java/com/albg/springcloud/PaymentHystrixMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-hystrix-payment8001/src/main/java/com/albg/springcloud/PaymentHystrixMain8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/albg/springcloud/GateWayMain9527.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/albg/springcloud/config/GateWayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/albg/springcloud/filter/MyLogGateWayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../business-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,6 +18,7 @@
     <ignored path="$PROJECT_DIR$/code-generator-service6888/target/" />
     <ignored path="$PROJECT_DIR$/cloud-eureka-server7001/target/" />
     <ignored path="$PROJECT_DIR$/cloud-eureka-server7002/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-gateway9527/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,66 +46,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/pom.xml">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/albg/springcloud/config/GateWayConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+            <state relative-caret-position="243">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/albg/springcloud/filter/MyLogGateWayFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/albg/eureka/EurekaMain7001.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/albg/springcloud/GateWayMain9527.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="297">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/test/java/CodeGenerateTest.java">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway9527/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/albg/eureka/Eureka7002Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-27">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -132,10 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/domain/entities.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/domain/PayMent.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/albg/domain/entities/PayMent.java" />
         <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code.java" />
         <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/infrastructure/cfg/MybatisPlusConfig.java" />
         <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/infrastructure/cfg/A.java" />
@@ -180,6 +149,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-gateway9527/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/albg/springcloud/config/GateWayMain9527.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/albg/springcloud/config/filter/MyLogGateWayFilter.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/albg/springcloud/GateWayMain9527.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/albg/springcloud/config/GateWayConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/albg/springcloud/filter/MyLogGateWayFilter.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway9527/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -224,7 +200,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="663" />
     <option name="y" value="327" />
     <option name="width" value="1752" />
@@ -238,14 +214,39 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway9527" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,8 +261,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595166164175" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595252401820" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../business-service" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -271,16 +272,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.albg.springcloud" />
       <recent name="eureka" />
       <recent name="com.albg.provider.interfaces.controller" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1.GitFile\9.albg\basic-service\cloud-gateway9527\src\main\resources" />
       <recent name="D:\1.GitFile\9.albg\basic-service\cloud-eureka-server7002\src\main\resources" />
       <recent name="D:\1.GitFile\9.albg\basic-service\cloud-eureka-server7001\src\main\resources" />
       <recent name="D:\1.GitFile\9.albg\basic-service" />
       <recent name="D:\6.persion-website\basic-service\code-generator-service6888\deploy" />
-      <recent name="D:\6.persion-website\basic-service\code-generator-service6888\src\main\java\com\albg\code" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaMain7001">
+  <component name="RunManager" selected="Spring Boot.GateWayMain9527">
     <configuration name="CodeGenerateTest.generateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-generator-service6888" />
       <option name="PACKAGE_NAME" value="" />
@@ -338,8 +340,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GateWayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-gateway9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.albg.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.albg.springcloud.GateWayMain9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GateWayMain9527" />
         <item itemvalue="JUnit.CodeGenerateTest.generateTest" />
         <item itemvalue="Spring Boot.CodeGeneratorApplication" />
       </list>
@@ -360,7 +376,8 @@
       <workItem from="1594557503967" duration="3144000" />
       <workItem from="1594646037562" duration="1211000" />
       <workItem from="1594820574379" duration="4701000" />
-      <workItem from="1595047803396" duration="9384000" />
+      <workItem from="1595047803396" duration="9444000" />
+      <workItem from="1595250839841" duration="1485000" />
     </task>
     <servers />
   </component>
@@ -391,13 +408,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32188000" />
+    <option name="totallyTimeSpent" value="33733000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1721" height="935" extended-state="7" />
+    <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2705953" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18400481" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -422,11 +439,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.22540474" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.249549" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.23090799" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.06855081" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32952496" />
@@ -443,41 +460,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/FieldHisInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/FieldPresentInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/FieldValueHisInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/FieldValuePresentInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/IndexFieldHisInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/IndexFieldPresentInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -696,42 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/albg/eureka/Eureka7002Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/albg/eureka/EurekaMain7001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -749,7 +695,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="76.5" y="15.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="77.0" y="16.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -757,9 +703,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway9527/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/albg/eureka/EurekaMain7001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/test/java/CodeGenerateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
+        <state relative-caret-position="27">
           <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -767,10 +753,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/albg/eureka/Eureka7002Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="320">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway9527/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/albg/springcloud/config/GateWayConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/albg/springcloud/filter/MyLogGateWayFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/albg/springcloud/GateWayMain9527.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
