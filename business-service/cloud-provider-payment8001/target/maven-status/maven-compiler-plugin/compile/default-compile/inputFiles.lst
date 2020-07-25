@@ -1,5 +1,5 @@
-D:\1.GitFile\9.albg\business-service\cloud-provider-payment8001\src\main\java\com\albg\provider\controller\service\PaymentService.java
-D:\1.GitFile\9.albg\business-service\cloud-provider-payment8001\src\main\java\com\albg\provider\controller\service\impl\PaymentServiceImpl.java
-D:\1.GitFile\9.albg\business-service\cloud-provider-payment8001\src\main\java\com\albg\provider\controller\dao\PaymentDao.java
-D:\1.GitFile\9.albg\business-service\cloud-provider-payment8001\src\main\java\com\albg\provider\controller\CloudProviderPaymentApplication.java
-D:\1.GitFile\9.albg\business-service\cloud-provider-payment8001\src\main\java\com\albg\provider\controller\controller\PaymentController.java
+D:\1.GitFile\9.albg\business-service\cloud-provider-payment8001\src\main\java\com\albg\provider\dao\PaymentDao.java
+D:\1.GitFile\9.albg\business-service\cloud-provider-payment8001\src\main\java\com\albg\provider\service\impl\PaymentServiceImpl.java
+D:\1.GitFile\9.albg\business-service\cloud-provider-payment8001\src\main\java\com\albg\provider\controller\PaymentController.java
+D:\1.GitFile\9.albg\business-service\cloud-provider-payment8001\src\main\java\com\albg\provider\service\PaymentService.java
+D:\1.GitFile\9.albg\business-service\cloud-provider-payment8001\src\main\java\com\albg\provider\CloudProviderPayment8001.java

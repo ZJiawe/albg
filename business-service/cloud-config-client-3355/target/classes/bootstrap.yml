@@ -25,7 +25,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka
 
-# 暴露监控端点
+# 暴露监控端点 做刷新客户端配置文件  刷新请求 curl -X POST "http://localhost:3355/actuator/refresh"
 management:
   endpoints:
     web:
