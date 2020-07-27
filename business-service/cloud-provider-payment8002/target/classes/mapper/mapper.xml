@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 
-<mapper namespace="com.albg.provider.dao.PaymentDao">
+<mapper namespace="com.albg.PaymentDao">
 
     <insert id="create" parameterType="com.albg.common.dto.Payment" useGeneratedKeys="true" keyProperty="id">
         insert into payment(serial)  values(#{serial});

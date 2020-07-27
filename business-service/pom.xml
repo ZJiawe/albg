@@ -21,6 +21,8 @@
         <module>cloud-consumer-feign-hystrix-order80</module>
         <module>cloud-consumer-hystrix-dashboard9001</module>
         <module>cloud-config-client-3355</module>
+        <module>cloud-alibaba-producet-payment9001</module>
+        <module>springcloud-alibaba-consumer-order83</module>
         <!--<module>cloud-eureka-server7001</module>-->
     </modules>
 

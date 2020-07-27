@@ -1,0 +1,5 @@
+provider\controller\PaymentController.class
+provider\dao\PaymentDao.class
+provider\service\PaymentService.class
+provider\CloudAlibabaProviderPayment9001.class
+provider\service\impl\PaymentServiceImpl.class

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-alibaba-producet-payment9001" />
         <module name="cloud-api-commons" />
         <module name="cloud-config-client-3355" />
         <module name="cloud-consule-payment8005" />
@@ -18,6 +19,7 @@
         <module name="cloud-provider-payment8001" />
         <module name="cloud-provider-payment8002" />
         <module name="cloud-zookeeper-payment8004" />
+        <module name="springcloud-alibaba-consumer-order83" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
