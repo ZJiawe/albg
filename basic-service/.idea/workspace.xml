@@ -8,24 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c858818c-d70d-4a2e-9d29-d36c3b012085" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-alibaba-producet-payment9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-alibaba-producet-payment9001/src/main/java/com/albg/springcloud/CloudAlibabaProviderPayment9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-alibaba-producet-payment9001/src/main/java/com/albg/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-alibaba-producet-payment9001/src/main/java/com/albg/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-alibaba-producet-payment9001/src/main/java/com/albg/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-alibaba-producet-payment9001/src/main/java/com/albg/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-alibaba-producet-payment9001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/cloud-alibaba-producet-payment9001/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/springcloud-alibaba-consumer-order83/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/springcloud-alibaba-consumer-order83/src/main/java/com/albg/springcould/OrderNacosMain83.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/springcloud-alibaba-consumer-order83/src/main/java/com/albg/springcould/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/springcloud-alibaba-consumer-order83/src/main/java/com/albg/springcould/controller/OrderNacosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../business-service/springcloud-alibaba-consumer-order83/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/mapper/PaymentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8001/target/classes/mapper/PaymentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/resources/mapper/mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/src/main/resources/mapper/mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/mapper/mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/cloud-provider-payment8002/target/classes/mapper/mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../business-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../business-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/albg/springcloud/NacosConfigClientMain3377.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/albg/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cloud-provider-payment8001/target/" />
@@ -34,6 +22,7 @@
     <ignored path="$PROJECT_DIR$/cloud-eureka-server7002/target/" />
     <ignored path="$PROJECT_DIR$/cloud-gateway9527/target/" />
     <ignored path="$PROJECT_DIR$/cloud-config-center3344/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/albg/eureka/EurekaMain7001.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="405">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#410#411#0" expanded="true" />
@@ -84,10 +73,59 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="59" column="40" lean-forward="true" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/albg/springcloud/controller/ConfigClientController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/albg/springcloud/NacosConfigClientMain3377.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+            <state relative-caret-position="1867">
+              <caret line="100" selection-start-line="100" selection-end-line="120" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -125,12 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/infrastructure/cfg/MyMetaObjectHandler.java" />
-        <option value="$PROJECT_DIR$/code-generator-service6888/deploy/ReadMe.md" />
-        <option value="$PROJECT_DIR$/code-generator-service6888/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/DbHisInfo.java" />
-        <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/FieldHisInfo.java" />
-        <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/FieldPresentInfo.java" />
         <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/FieldValueHisInfo.java" />
         <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/FieldValuePresentInfo.java" />
         <option value="$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/IndexFieldHisInfo.java" />
@@ -176,6 +208,12 @@
         <option value="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-config-center3344/src/main/java/com/albg/springcloud/ConfigApplication3344.java" />
         <option value="$PROJECT_DIR$/cloud-config-center3344/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/albg/springcloud/controller/NacosConfigClientMain3377.java" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/albg/springcloud/controller/com/albg/springcloud/NacosConfigClientMain3377.java" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/albg/springcloud/controller/ConfigClientController.java" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/albg/springcloud/NacosConfigClientMain3377.java" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -234,6 +272,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,12 +280,71 @@
               <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic-service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-alibaba-config-nacos-client3377" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-alibaba-config-nacos-client3377" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-alibaba-config-nacos-client3377" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-alibaba-config-nacos-client3377" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-alibaba-config-nacos-client3377" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-alibaba-config-nacos-client3377" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-alibaba-config-nacos-client3377" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-alibaba-config-nacos-client3377" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,7 +354,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595768022706" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595942717852" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../business-service" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -267,17 +365,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.albg.springcloud.controller" />
       <recent name="com.albg.springcloud" />
       <recent name="eureka" />
       <recent name="com.albg.provider.interfaces.controller" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1.GitFile\9.albg\basic-service\cloud-alibaba-config-nacos-client3377\src\main\resources" />
       <recent name="D:\1.GitFile\9.albg\basic-service\cloud-config-center3344\src\main\resources" />
       <recent name="D:\1.GitFile\9.albg\basic-service\cloud-gateway9527\src\main\resources" />
       <recent name="D:\1.GitFile\9.albg\basic-service\cloud-eureka-server7002\src\main\resources" />
       <recent name="D:\1.GitFile\9.albg\basic-service\cloud-eureka-server7001\src\main\resources" />
-      <recent name="D:\1.GitFile\9.albg\basic-service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -296,9 +395,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.18165137" />
+    <option name="contentProportion" value="0.25382262" />
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaMain7001">
+  <component name="RunManager" selected="Spring Boot.NacosConfigClientMain3377">
     <configuration name="CodeGenerateTest.generateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-generator-service6888" />
       <option name="PACKAGE_NAME" value="" />
@@ -366,8 +465,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NacosConfigClientMain3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-config-nacos-client3377" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.albg.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.albg.springcloud.NacosConfigClientMain3377" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
         <item itemvalue="Spring Boot.GateWayMain9527" />
         <item itemvalue="JUnit.Test.getDate" />
         <item itemvalue="JUnit.CodeGenerateTest.generateTest" />
@@ -428,14 +541,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48044000" />
+    <option name="totallyTimeSpent" value="49906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1721" height="935" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76326" visible="true" weight="0.24413711" />
-      <window_info id="Structure" order="1" sideWeight="0.23673998" side_tool="true" visible="true" weight="0.24413711" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4857143" visible="true" weight="0.26698738" />
+      <window_info id="Structure" order="1" sideWeight="0.51428574" side_tool="true" weight="0.26698738" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -459,11 +571,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" weight="0.54420924" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.0373599" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.3897883" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.249549" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.045700543" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.019843657" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32952496" />
@@ -520,55 +632,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/domain/entitys/VersionInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/interfaces/controller/VersionInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/interfaces/controller/TablePresentInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/interfaces/controller/TableHisInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/interfaces/controller/SequencePresentInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/interfaces/controller/SequenceHisInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/interfaces/controller/OriginalDataHisInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code-generator-service6888/src/main/java/com/albg/code/interfaces/controller/IndexPresentInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -845,21 +908,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/albg/eureka/EurekaMain7001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="405">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#410#411#0" expanded="true" />
             <element signature="e#479#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/albg/springcloud/controller/NacosConfigClientMain3377.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/albg/springcloud/controller/com/albg/springcloud/NacosConfigClientMain3377.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1867">
+          <caret line="100" selection-start-line="100" selection-end-line="120" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="59" column="40" lean-forward="true" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/albg/springcloud/NacosConfigClientMain3377.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/albg/springcloud/controller/ConfigClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
