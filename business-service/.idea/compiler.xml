@@ -19,6 +19,7 @@
         <module name="cloud-provider-payment8001" />
         <module name="cloud-provider-payment8002" />
         <module name="cloud-zookeeper-payment8004" />
+        <module name="cloudalibaba-sentinel-service8401" />
         <module name="springcloud-alibaba-consumer-order83" />
       </profile>
     </annotationProcessing>

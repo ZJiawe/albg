@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b647d63-eb2b-4f44-abf4-448ce69d126d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../basic-service/cloud-alibaba-config-nacos-client3377/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../basic-service/cloud-alibaba-config-nacos-client3377/src/main/java/com/albg/springcloud/NacosConfigClientMain3377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../basic-service/cloud-alibaba-config-nacos-client3377/src/main/java/com/albg/springcloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../basic-service/cloud-alibaba-config-nacos-client3377/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../basic-service/cloud-alibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/albg/springcloud/SentinelMain8401.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/albg/springcloud/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,6 +28,7 @@
     <ignored path="$PROJECT_DIR$/cloud-config-client-3355/target/" />
     <ignored path="$PROJECT_DIR$/cloud-alibaba-producet-payment9001/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-alibaba-consumer-order83/target/" />
+    <ignored path="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,10 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-provider-payment-open-feign8006/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment-open-feign8006/src/main/java/com/albg/springcloud/service/PaymentService.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment-open-feign8006/src/main/java/com/albg/springcloud/service/impl/PaymentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment-open-feign8006/src/main/java/com/albg/springcloud/controller/ConsumerController.java" />
         <option value="$PROJECT_DIR$/cloud-provider-consumer-open-feign8006/src/main/java/com/albg/springcloud/controller/ConsumerController.java" />
         <option value="$PROJECT_DIR$/cloud-provider-consumer-open-feign8006/src/main/java/com/albg/springcloud/PaymentOpenFeign8006.java" />
         <option value="$PROJECT_DIR$/cloud-provider-consumer-open-feign8006/src/main/java/com/albg/springcloud/config/Logger.java" />
@@ -128,6 +124,10 @@
         <option value="$PROJECT_DIR$/springcloud-alibaba-consumer-order83/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud-alibaba-consumer-order83/src/main/java/com/albg/springcould/controller/OrderNacosController.java" />
         <option value="$PROJECT_DIR$/springcloud-alibaba-consumer-order83/src/main/java/com/albg/springcould/config/ApplicationContextConfig.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/albg/springcloud/SentinelMain8401.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/albg/springcloud/controller/TestController.java" />
       </list>
     </option>
   </component>
@@ -164,7 +164,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="885" />
     <option name="y" value="246" />
     <option name="width" value="1752" />
@@ -185,12 +185,122 @@
               <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="business-service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-ribbon-rule-order6002" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-ribbon-rule-order6002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-ribbon-rule-order6002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-ribbon-rule-order6002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-ribbon-rule-order6002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="albg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-consumer-open-feign8006" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-consumer-open-feign8006" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-consumer-open-feign8006" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-alibaba-consumer-order83" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,7 +310,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595942265939" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596357337019" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -212,15 +322,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\1.GitFile\9.albg\business-service\cloud-provider-payment8002\src\main\resources\mapper" />
+      <recent name="D:\1.GitFile\9.albg\business-service\cloud-consumer-order6001\src\main\java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\1.GitFile\9.albg\business-service\springcloud-alibaba-consumer-order83\src\main\java\com\albg\springcould" />
-      <recent name="D:\1.GitFile\9.albg\business-service\springcloud-alibaba-consumer-order83\src\main\resources" />
-      <recent name="D:\1.GitFile\9.albg\business-service\cloud-alibaba-producet-payment9001\src\main\resources" />
-      <recent name="D:\1.GitFile\9.albg\business-service\cloud-alibaba-producet-payment9001\src\main\java" />
-      <recent name="D:\1.GitFile\9.albg\business-service\cloud-config-client-3355\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.albg.springcloud.controller" />
@@ -229,9 +336,12 @@
       <recent name="com.albg.eureka" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\1.GitFile\9.albg\business-service\cloud-provider-payment8002\src\main\resources\mapper" />
-      <recent name="D:\1.GitFile\9.albg\business-service\cloud-consumer-order6001\src\main\java" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1.GitFile\9.albg\business-service\cloudalibaba-sentinel-service8401\src\main\resources" />
+      <recent name="D:\1.GitFile\9.albg\business-service\springcloud-alibaba-consumer-order83\src\main\java\com\albg\springcould" />
+      <recent name="D:\1.GitFile\9.albg\business-service\springcloud-alibaba-consumer-order83\src\main\resources" />
+      <recent name="D:\1.GitFile\9.albg\business-service\cloud-alibaba-producet-payment9001\src\main\resources" />
+      <recent name="D:\1.GitFile\9.albg\business-service\cloud-alibaba-producet-payment9001\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -252,7 +362,7 @@
     </option>
     <option name="contentProportion" value="0.235474" />
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderNacosMain83">
+  <component name="RunManager" selected="Spring Boot.SentinelMain8401">
     <configuration name="CloudAlibabaProviderPayment9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-alibaba-producet-payment9001" />
       <extension name="coverage">
@@ -326,19 +436,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-consumer-hystrix-dashboard9001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.albg.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.albg.springcloud.HystrixDashboardMain9001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OrderHystrixMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-feign-hystrix-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.albg.springcloud.OrderHystrixMain80" />
@@ -394,6 +491,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SentinelMain8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-service8401" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.albg.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.albg.springcloud.SentinelMain8401" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.CloudConsumerOrder6001" />
       <item itemvalue="Spring Boot.CloudProviderPayment8002" />
@@ -404,20 +514,20 @@
       <item itemvalue="Spring Boot.CloudConsumerOrder6002" />
       <item itemvalue="Spring Boot.PaymentOpenFeign8006" />
       <item itemvalue="Spring Boot.OrderHystrixMain80" />
-      <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
+      <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
       <item itemvalue="Spring Boot.ConfigMain3355" />
       <item itemvalue="Spring Boot.CloudAlibabaProviderPayment9001" />
       <item itemvalue="Spring Boot.CloudAlibabaProviderPayment9002-copy9001" />
       <item itemvalue="Spring Boot.OrderNacosMain83" />
-      <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
+      <item itemvalue="Spring Boot.SentinelMain8401" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SentinelMain8401" />
         <item itemvalue="Spring Boot.OrderNacosMain83" />
         <item itemvalue="Spring Boot.CloudAlibabaProviderPayment9002-copy9001" />
         <item itemvalue="Spring Boot.CloudAlibabaProviderPayment9001" />
         <item itemvalue="Spring Boot.ConfigMain3355" />
-        <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
       </list>
     </recent_temporary>
   </component>
@@ -441,11 +551,12 @@
       <workItem from="1595507883239" duration="3260000" />
       <workItem from="1595664424249" duration="15037000" />
       <workItem from="1595851578687" duration="4335000" />
+      <workItem from="1596353828953" duration="3040000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63201000" />
+    <option name="totallyTimeSpent" value="66241000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,9 +568,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1721" height="935" extended-state="7" />
+    <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24293445" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25375828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -482,7 +593,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.16416116" weight="0.15815692" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.83583885" visible="true" weight="0.22540474" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.83583885" visible="true" weight="0.6537983" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.05532171" />
@@ -539,44 +650,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-provider-consumer-open-feign8006/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/albg/springcloud/service/PaymentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/albg/springcloud/HystrixDashboardMain9001.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -697,13 +770,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-zookeeper-payment8004/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -905,6 +971,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="192" selection-start-line="192" selection-end-line="192" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-zookeeper-payment8004/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-consumer-open-feign8006/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon-rule-order6002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="23" selection-start-line="23" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/albg/springcloud/SentinelMain8401.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="16" column="60" lean-forward="true" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/albg/springcloud/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="70" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
         </state>
       </provider>
     </entry>
