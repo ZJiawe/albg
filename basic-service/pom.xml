@@ -14,6 +14,7 @@
         <module>cloud-gateway9527</module>
         <module>cloud-config-center3344</module>
         <module>cloud-alibaba-config-nacos-client3377</module>
+        <module>cloud-id-generator-producer</module>
     </modules>
     <packaging>pom</packaging>
 
