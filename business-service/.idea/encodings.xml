@@ -15,6 +15,8 @@
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-zookeeper-payment8004" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9004" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-alibaba-consumer-order83" charset="UTF-8" />
   </component>
