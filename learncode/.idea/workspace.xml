@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2867b5f-fecf-468f-8cc1-4db48b3966c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/SaleCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/version/EntityA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/version/EntityAService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/version/EntityB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/version/EnumAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/version/IVersionControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/version/IVersionControlEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic-service/cloud-eureka-server7002/src/main/java/com/albg/eureka/Eureka7002Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic-service/cloud-eureka-server7002/src/main/java/com/albg/eureka/Eureka7002Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/AbaSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/juc/version/EntityAService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juc/version/EntityAService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/juc/version/EntityB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/juc/version/IVersionControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juc/version/IVersionControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/juc/version/EntityAService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/juc/version/EntityAService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/juc/version/EntityB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/juc/version/IVersionControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/juc/version/IVersionControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/juc/version/Test.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,14 +23,39 @@
     <favorites_list name="learncode" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/EntityAService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+            <state relative-caret-position="697">
+              <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/juc/AbaSolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/2.CodeSoftWare/1.Java/3.JDK/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="455" column="60" selection-start-line="455" selection-start-column="60" selection-end-line="455" selection-end-column="60" />
+              <folding>
+                <element signature="e#15020#15021#0" expanded="true" />
+                <element signature="e#15084#15085#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,22 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/EntityA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-158">
+            <state relative-caret-position="243">
               <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/EntityB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/EnumAction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -74,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/IVersionControl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="1944">
+              <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,11 +94,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.10/hutool-all-5.3.10.jar!/cn/hutool/core/collection/CollUtil.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19764">
+              <caret line="824" column="26" selection-start-line="824" selection-start-column="26" selection-end-line="824" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/IVersionControlEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="513">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,6 +125,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Co</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -120,11 +145,13 @@
         <option value="$PROJECT_DIR$/src/main/java/juc/version/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/juc/SaleCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/juc/version/ServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/juc/version/EntityAService.java" />
         <option value="$PROJECT_DIR$/src/main/java/juc/version/EntityA.java" />
         <option value="$PROJECT_DIR$/src/main/java/juc/version/EntityB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/juc/version/IVersionControl.java" />
         <option value="$PROJECT_DIR$/src/main/java/juc/version/IVersionControlEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/juc/version/IVersionControl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/juc/version/EntityAService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/juc/ABA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/juc/AbaSolver.java" />
       </list>
     </option>
   </component>
@@ -135,7 +162,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="36" />
     <option name="y" value="45" />
     <option name="width" value="1752" />
@@ -150,7 +177,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,25 +210,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="juc" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="learncode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learncode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="version" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597587056659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597840208375" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -234,7 +252,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EntityAService">
+  <component name="RunManager" selected="Application.AbaSolver">
+    <configuration name="AbaSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juc.AbaSolver" />
+      <module name="learncode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EntityAService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="juc.version.EntityAService" />
       <module name="learncode" />
@@ -276,6 +307,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbaSolver" />
         <item itemvalue="Application.EntityAService" />
         <item itemvalue="Application.SaleCheck" />
         <item itemvalue="Application.Test" />
@@ -296,45 +328,49 @@
       <option name="presentableId" value="Default" />
       <updated>1597547317923</updated>
       <workItem from="1597547324545" duration="19666000" />
+      <workItem from="1597587227176" duration="141000" />
+      <workItem from="1597668454769" duration="1180000" />
+      <workItem from="1597760430817" duration="598000" />
+      <workItem from="1597839332080" duration="868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19666000" />
+    <option name="totallyTimeSpent" value="22453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" sideWeight="0.50152904" side_tool="true" weight="0.249549" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49935317" visible="true" weight="0.27420324" />
-      <window_info x="21845" y="21845" width="43690" height="43690" id="Structure" order="1" sideWeight="0.5006468" side_tool="true" type="FLOATING" visible="true" weight="0.27420324" />
-      <window_info anchor="bottom" id="Messages" weight="0.32876712" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49935317" visible="true" weight="0.21647625" />
+      <window_info x="804" y="442" width="99" height="36" id="Structure" order="1" sideWeight="0.5006468" side_tool="true" type="FLOATING" weight="0.27420324" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50152904" side_tool="true" weight="0.249549" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.19800748" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.054744527" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18555418" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44084683" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,13 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/2.CodeSoftWare/1.Java/3.JDK/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="1796" column="11" lean-forward="true" selection-start-line="1796" selection-start-column="11" selection-end-line="1796" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/2.CodeSoftWare/1.Java/3.JDK/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -377,13 +406,6 @@
             <element signature="e#81688#81689#0" expanded="true" />
             <element signature="e#81742#81743#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/IVersionControlEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -426,19 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.10/hutool-all-5.3.10.jar!/cn/hutool/core/collection/CollUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="494" column="26" lean-forward="true" selection-start-line="494" selection-start-column="26" selection-end-line="494" selection-end-column="26" />
-          <folding>
-            <element signature="e#15546#15547#0" expanded="true" />
-            <element signature="e#15592#15593#0" expanded="true" />
-            <element signature="e#36098#36099#0" expanded="true" />
-            <element signature="e#36140#36141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/juc/SaleCheck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
@@ -449,20 +458,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/EntityB.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/EntityAService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="19" column="81" lean-forward="true" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+        <state relative-caret-position="697">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/EntityB.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/EntityA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="243">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -472,46 +483,52 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/EnumAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/EntityAService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/EntityA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-          </folding>
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/IVersionControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="1944">
+          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.10/hutool-all-5.3.10.jar!/cn/hutool/core/collection/CollUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19764">
+          <caret line="824" column="26" selection-start-line="824" selection-start-column="26" selection-end-line="824" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/juc/version/IVersionControlEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="513">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/2.CodeSoftWare/1.Java/3.JDK/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="455" column="60" selection-start-line="455" selection-start-column="60" selection-end-line="455" selection-end-column="60" />
+          <folding>
+            <element signature="e#15020#15021#0" expanded="true" />
+            <element signature="e#15084#15085#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/juc/AbaSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -19,7 +19,29 @@ public interface IVersionControl<T extends IVersionControlEntity> {
      * @param versionIdList 版本主键列表
      * @return List<T>
      */
-    List<T> getVersionData(List<String> versionIdList);
+    List<T> getAllVersionRecordData(List<String> versionIdList);
+
+    /**
+     * 获取差异数据
+     * @param fromVersionIdList 源版本所有主键列表
+     * @param toVersionIdList 目标版本所有主键列表
+     * @return List<T>
+     */
+    default List<T> getDifferData(List<String> fromVersionIdList, List<String> toVersionIdList) {
+        List<T> fromList = getVersionData(fromVersionIdList);
+        List<T> toList = getVersionData(toVersionIdList);
+        return getDiffData(fromList, toList);
+    }
+
+    /**
+     * 获取版本数据
+     * @param versionIdList 版本主键列表
+     * @return List<T>
+     */
+    default List<T> getVersionData(List<String> versionIdList) {
+        List<T> allVersionRcordData = getAllVersionRecordData(versionIdList);
+        return reotreVersionData(allVersionRcordData);
+    }
 
     /**
      * 还版本结构数据
@@ -29,20 +51,22 @@ public interface IVersionControl<T extends IVersionControlEntity> {
      */
     default List<T> reotreVersionData(List<T> dataList) {
         if (CollUtil.isEmpty(dataList)) {
-            return CollUtil.newArrayList();
+            return new ArrayList<>();
         }
         // 时间逆序排序
         List<T> sortList = dataList.stream().sorted(Comparator.comparing(t -> t.getRecordTime()))
                 .collect(Collectors.toCollection(LinkedList::new));
         // 根据ID进行分组
-        Map<String, List<T>> groupByIdDataMap = sortList.stream().collect(Collectors.groupingBy(T::getDataId));
+        Map<String, List<T>> groupByIdDataMap = sortList.stream().collect(Collectors.groupingBy(T::getDataId,
+                Collectors.toCollection(LinkedList::new)));
         // 获取每个分组的第一个数据
-        List<T> result = CollUtil.newArrayList();
+        List<T> result = new ArrayList<>();
         groupByIdDataMap.forEach((k, v) -> {
             result.add(v.stream().findFirst().get());
         });
         // 过滤操作行为为删除的数据
-        return result.stream().filter(item -> !Objects.equals(item.getDataAction(), EnumAction.delete)).collect(Collectors.toList());
+        return result.stream().filter(item -> !Objects.equals(item.getDataAction(), EnumAction.delete))
+                .collect(Collectors.toList());
     }
 
     /**
@@ -94,6 +118,5 @@ public interface IVersionControl<T extends IVersionControlEntity> {
 
         return resultList;
     }
-
 
 }
